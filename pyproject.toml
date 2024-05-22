@@ -15,7 +15,7 @@ python-socketio = { version = "4.6.0", extras = ["client"] }
 observable = "^1.0.3"
 
 [tool.poetry.group.dev.dependencies]
-black = "^22.10.0"
+black = ">=22.10,<25.0"
 isort = "^5.10.1"
 tox = "^4.6.3"
 pytest = "^7.4.0"
